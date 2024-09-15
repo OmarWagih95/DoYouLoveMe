@@ -38,6 +38,7 @@ export default function Home() {
     
  className="p-8">
 <button
+onClick={handleHover}
   style={{ left: `${xAxis}vw`, top: `${yAxis}vh` }} 
   className={`bg-red-500  absolute  text-white font-bold py-2 px-4 rounded-md`}
 >
